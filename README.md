@@ -8,7 +8,8 @@ Itens | Doing | Done |
  Main Screen |  |  | 
  Login | |  |
  MVC Structure |  |  | 
- 
+ Internationalization |  |  | 
+ about section |  |  | 
  
 **\:eight_pointed_black_star: Requires hands on**
 
