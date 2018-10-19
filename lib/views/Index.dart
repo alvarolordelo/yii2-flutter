@@ -43,7 +43,7 @@ class _IndexState extends State<Index> {
               title: Text('Language'),
               trailing: Icon(Icons.language),
               onTap: () {
-                
+                _showLanguageDialog();
               },
             ),
           ],
@@ -61,6 +61,53 @@ class _IndexState extends State<Index> {
                   fontStyle: FontStyle.italic),
             ),
           )),
+    );
+  }
+
+  void _showLanguageDialog() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text("Preferred Language"),
+          content: ListView(
+            children: <Widget>[
+              ListTile(
+                title: Text('English'),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {},
+              ),
+              ListTile(
+                title: Text('Portuguese'),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {},
+              ),
+              ListTile(
+                title: Text('Spanish'),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {},
+              ),
+              ListTile(
+                title: Text('Chinese'),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {},
+              ),
+            ],
+          ),
+          actions: <Widget>[
+            FlatButton(
+              color: Colors.red,
+              child: Text(
+                'close',
+                style: TextStyle(color: Colors.white),
+              ),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            )
+          ],
+        );
+      },
     );
   }
 }

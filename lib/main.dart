@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import './views/Index.dart';
 //import './config/Internationalization.dart';
 
-void main() => runApp(MaterialApp(
+void main() => runApp(new MaterialApp(
       //internalization();
       debugShowCheckedModeBanner: false,
       home: Index(),
