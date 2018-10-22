@@ -16,6 +16,7 @@ Itens | Doing | Done |
 
 
 ## Initial Screen
+![alt text](https://lh3.googleusercontent.com/-60tVzUXgvuo/W84gMCW7ShI/AAAAAAAAIf4/0H0UAMsu13YBArdtURcWS6d_aUVU8Q8LACJoC/w530-h883-n-rw/Screenshot_1540234435.png)
 
 
 **Contributors**
