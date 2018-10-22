@@ -6,6 +6,7 @@ Integrate on Google flutter the patterns used in Yii2 like MVC - model and valid
 Itens | Doing | Done |
 ----- | :---: | :---: | 
  Main Screen |  |  | 
+ Menu | |  |
  Login | |  |
  MVC Structure |  |  | 
  Internationalization |  |  | 
