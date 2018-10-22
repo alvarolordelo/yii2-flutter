@@ -5,12 +5,12 @@ Integrate on Google flutter the patterns used in Yii2 like MVC - model and valid
 
 Itens | Doing | Done |
 ----- | :---: | :---: | 
- Main Screen |  |  | 
- Menu | |  |
+ Main Screen |:white_check_mark:  |  | 
+ Menu |:white_check_mark: |  |
  Login | |  |
- MVC Structure |  |  | 
- Internationalization |  |  | 
- About section |  |  | 
+ MVC Structure | :white_check_mark: |  | 
+ Internationalization | :white_check_mark: |  | 
+ About section | :white_check_mark: |  | 
  
 **\:eight_pointed_black_star: Requires hands on**
 
