@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+//views
 import '../views/app/index.dart';
 import '../views/app/about.dart';
+import '../views/app/login.dart';
+//model
+import '../models/login-form-model.dart';
 
 class AppController extends StatefulWidget {
   _AppControllerState createState() => _AppControllerState();
@@ -14,7 +18,13 @@ class AppController extends StatefulWidget {
     return About();
   }
 
-  actionLogin() {}
+   actionLogin() {
+    var model = LoginForm();
+    
+    //need to pass the model to loginView widget
+    //return Login(model);
+    return Login();
+  }
 
   actionRegister() {}
 }

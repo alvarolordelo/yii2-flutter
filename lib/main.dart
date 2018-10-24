@@ -12,6 +12,7 @@ void main() => runApp(MaterialApp(
         // When we navigate to the "/" route, build the FirstScreen Widget
         '/': (context) => new AppController().actionIndex(),
         // When we navigate to the "/second" route, build the SecondScreen Widget
-        '/second': (context) => new AppController().actionAbout(),
+        '/about': (context) => new AppController().actionAbout(),
+        '/login': (context) => new AppController().actionLogin(),
       },
     ));

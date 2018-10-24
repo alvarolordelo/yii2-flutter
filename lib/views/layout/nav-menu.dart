@@ -16,6 +16,7 @@ class NavMenu {
             title: Text('Home'),
             trailing: Icon(Icons.home),
             onTap: () {
+              Navigator.of(context).pop();
               Navigator.pushNamed(context, '/');
             },
           ),
@@ -23,13 +24,17 @@ class NavMenu {
             title: Text('About'),
             trailing: Icon(Icons.info_outline),
             onTap: () {
-              Navigator.pushNamed(context, '/second');
+              Navigator.of(context).pop();
+              Navigator.pushNamed(context, '/about');
             },
           ),
           ListTile(
             title: Text('Login/Register'),
             trailing: Icon(Icons.input),
-            onTap: () {},
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.pushNamed(context, '/login');
+            },
           ),
           ListTile(
             title: Text('Language'),
