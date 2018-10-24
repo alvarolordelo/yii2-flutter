@@ -120,22 +120,30 @@ class NavMenu {
               ListTile(
                 title: Text('English'),
                 trailing: Icon(Icons.arrow_forward),
-                onTap: () {},
+                onTap: () {
+                  debugPrint('Selected English');
+                },
               ),
               ListTile(
                 title: Text('Portuguese'),
                 trailing: Icon(Icons.arrow_forward),
-                onTap: () {},
+                onTap: () {
+                  debugPrint('Selected Portuguese');
+                },
               ),
               ListTile(
                 title: Text('Spanish'),
                 trailing: Icon(Icons.arrow_forward),
-                onTap: () {},
+                onTap: () {
+                  debugPrint('Selected Spanish');
+                },
               ),
               ListTile(
                 title: Text('Chinese'),
                 trailing: Icon(Icons.arrow_forward),
-                onTap: () {},
+                onTap: () {
+                  debugPrint('Selected Chinese');
+                },
               ),
             ],
           ),
